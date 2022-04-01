@@ -158,7 +158,12 @@ getting all eleiments with the class img that are direct descendants of elements
 .dot.active .close{
     display: block;
 }
-
+.container {
+    width: 100%;
+    max-width: 800px;
+    padding: 10px;
+    margin: 0 auto;
+}
 .dot{
     width: 25px;
     height: 25px; 
@@ -178,7 +183,7 @@ getting all eleiments with the class img that are direct descendants of elements
     position: relative;
 }
 #camera2:not(.active) {
-    top: 75%;
+    top: 45%;
     left: 33%;
 }
 .dot.active{
@@ -196,13 +201,18 @@ getting all eleiments with the class img that are direct descendants of elements
 }
 /*********************************************************************
   YOUR TABLET/DESKTOP STYLES GO HERE
+
 *********************************************************************/
 
 @media(min-width: 681px) {
     /* Any adjustments for tablets and larger go here.
     Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
-}
 
+#camera2:not(.active) {
+    top: 60%;
+    left: 33%;
+}
+}
 
 /*********************************************************************
   YOUR DESKTOP-ONLY STYLES GO HERE
