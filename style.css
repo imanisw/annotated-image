@@ -178,7 +178,7 @@ getting all eleiments with the class img that are direct descendants of elements
     position: relative;
 }
 #camera2:not(.active) {
-    top: 78%;
+    top: 75%;
     left: 33%;
 }
 .dot.active{
