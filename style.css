@@ -34,7 +34,13 @@ html {
     font-size: 16px;
     font-family: 'Oxygen', sans-serif;
 }
-
+.header {
+    padding: 10px;
+    text-align: center;
+    background: tan; 
+    color: white;
+    font-size: 10px;
+  }
 
 /** RESPONSIVE IMAGES */
 
@@ -129,14 +135,15 @@ getting all eleiments with the class img that are direct descendants of elements
     display: none;
 }
 .pink{
-    background-color: rgba(240, 161, 175, 0.65);
+    background-color: tan;
+    opacity: 90%;
 }
 .annotate{
     position: relative;
 }
 #camera:not(.active) {
-    top: 20%;
-    left: 31%;
+    top: 48%;
+    left: 48%;
 }
 .dot.active{
     width: 100%;
